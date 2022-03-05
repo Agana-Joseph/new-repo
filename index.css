@@ -1,0 +1,170 @@
+body{
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 50px;
+    font-size: 11px;
+    color: #747474fb;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+}
+
+.header-head{
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 77rem;
+    background-image: url("https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/659676/9db596144e6e3b77673df41576b570c7/1024x576-mrp-ww-nap-desktop-data.jpg/w1500_q80.jpg");
+    background-color: rgb(7, 97, 67);
+}
+
+.tittle{
+color: #b90c85;
+font-style: italic;
+text-align: center;
+font-size:  45px; 
+}
+
+.sub-tittle{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin-right: 50px;
+    color: blue;
+    background-color: rgb(250, 244, 244);
+}
+
+.Sob-tittle{
+    display: flex;
+    text-align: center;
+    gap: 3rem;
+    color: #b90c85;
+}
+
+.brand-name{
+    font-style: italic ;
+    font-size: 50px;
+    text-align: center;
+    color: #dba0dd; 
+    padding-top: 0px;
+}
+
+.brand-Name{
+  font-size: 25px;
+  text-align: center;
+  color: #b90c85;
+  padding-top: 0px;
+}
+
+.IMG{
+    background: white;
+    color: #dba0dd;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.IMG figure{
+    margin: auto;
+    width: 200px;
+}
+
+.fas-icon{
+    color: green;
+    transform: rotateY(-360deg);
+    transition:all 1s ease-in-out;
+    overflow: hidden; 
+}
+
+/* .fas-fa-shopping-cart{
+    color: green;
+    transform: rotateY(-360deg);
+    transition:all 1s ease-in-out;
+} */
+
+.IMG figure img{
+    width: 20rem;
+}
+
+
+
+.fig{
+    margin: auto;
+    width: 200px;
+}
+
+.IMG-two .fig img{
+    display: flex;
+    width: 350px;
+}
+
+.colorBlue {
+    color: rgb(0, 26, 255);
+}
+.colorred{
+    color: red;
+}
+
+#Watch{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.phot1{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.phot2{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.phot3{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.brace{
+    max-width: 40rem;
+    border: 0.1px solid;
+}
+
+#Braclets{
+    padding-right: 50px;
+    text-align: center;
+}
+
+.phot4{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    /* max-height: 60px; */
+}
+
+.glases{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.ptag{
+    max-width: 100%;
+    max-height: 80rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_wb_7y5EYFmnzeiSEQ8yvCEdAaztueytSAA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* .Glas{
+    width: 10px;
+} */

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfort-Place</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@1,300&display=swap"
+ rel="stylesheet">
+ <link rel="stylesheet" href="dom.js">
+</head>
+<body>
+   <div class="sub-tittle">
+      <ul class="Sob-tittle">
+            <li>All</li>
+            <li><a href="#Watch">Watch</a></li>
+            <li><a href="#Braclets">Braclets</a></li>
+            <li><a href="#Glass">Glasses</a></li>
+            <li>Ring</li>
+            <li>cap</li>
+        </ul>
+    </div>
+    <header  class="header-head">
+        <div class="header">
+        <p class="tittle">Our Store</p>
+        </div>
+        <div>
+        <p class="brand-name">Welcome to Comforts-Place.ng</p>
+        <p class="brand-Name">All you have to do is, take a look and make your choice </p>
+       </div>
+    </header>
+    <section  class="IMG">
+        <figure class="store-item">
+            <img src="https://www.net-a-porter.com/variants/images/30629810019381050/in/w920_q60.jpg" alt="">
+            <div>
+                <button onclick="addToCart('Dior', '$', '11,000',)">
+                    <span class="fas-icon" id="fas"><i id="icon" class="fas fa-shopping-cart"></i></span>
+                    <span>Add to cart</span>
+                </button>
+                <button onclick="like('dior-like-button')">
+                    <i class="fa fa-thumbs-up" id="dior-like-button"></i>
+                </button>
+        </div>
+            <span>$</span>
+            <span>11,000</span>
+        </figure>
+
+        <figure class="store-item">
+            <img src="https://cache.mrporter.com/variants/images/10163292707393295/in/w560_q80.jpg" alt="">
+            <div>
+                <button onclick="addToCart('Chopard', '$', '8,300',)">
+                    <span class="fas-icon" id="fas"><i id="icon" class="fas fa-shopping-cart"></i></span>
+                    <span>Add to cart</span>
+                  </button>
+                 <button onclick="like('chopard-like-button')" class="coolo">
+                    <i class="fa fa-thumbs-up" id="chopard-like-button"></i>
+             </button>
+        </div>
+            <span>$</span>
+            <span>8,300</span>
+        </figure>
+
+        <figure class="store-item">
+            <img src="https://cache.mrporter.com/variants/images/13452677153126404/in/w560_q80.jpg" alt="">
+            <div>
+                <button onclick="addToCart('Oris', '$', '7,000',)">
+                    <span class="fas-icon" id="fas"><i id="icon" class="fas fa-shopping-cart"></i></span>
+                    <span>Add to cart</span>
+                </button>
+                <button onclick="like('Oris-like-button')" class="coolo">
+                    <i class="fa fa-thumbs-up" id="Oris-like-button"></i>
+                </button>
+          </div>
+            <span>$</span>
+            <span>11,700</span>
+        </figure>
+    </section>
+    <button onclick="like('heart like button')" class="hart">
+        <i class="fa fa-heart" id="heart like button"></i>
+    </button>
+
+    <h1 id="Watch">Men's Top Watch Brands</h1>
+    <div class="photos">
+        <div class="phot1">
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHpIxei3Mtg3d5Kxa0XZiSlT49ogyyfPUb0Kj49twkePgET8xW" alt="">
+        <p>Oris Men's 'Williams Engine Date' palne <br> Stainless Steel Watch</p></div>
+
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkByrMiUozGLsXbeA9RDDLrAbK5t1uYyh5tAgi5QPcPH64Q4h7" alt="">
+        <p>Bulova Men's 98A248 Goldtone Stainless Chrono <br> Black Dial Bracelet Watch - Gold-Tone</p></div>
+
+        <div><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9EiyZL9NkvfhfpXvm4QRp7nCntFZMPliRpSXXeP-Cf9j21shm" alt="">
+        <p>Luxurman Men's Yellow Goldtone Diamond <br> Watch Metal Band plus Extra Leather Straps</p></div>
+
+        <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTU26eFKPz_juGroUZJ0ESn02BeoMh85VUgTYYEb9nVIv3CR86c" alt="">
+        <p>Revue Thommen Men's 'Diver' Black Dial <br> Green Bezel GMT Professional Automatic <br> Watch</p></div>
+    </div>
+
+    <div class="phot2">
+        <div><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRadj0v6Gi6F5X02zK-JRMFhFwHprUB6_XHRzsjza-NTLTvIu_u" alt="">
+        <p>Invicta Men's 30617 'Pro Diver' <br> Gold-Tone and Silver Stainless <br> Steel Watch - Brown</p></div>
+
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSld7r8c3Hq2w91JNxGdLt0O0AOjrPRMd-1vzxMKVeheUFzhBqn" alt="">
+        <p>Akribos XXIV Men's Swiss Quartz <br> Chronograph Mesh Stainless Steel Strap <br> Bracelet</p></div>
+
+        <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSUR5fj9seI0BSS2eDlxEDHprERXIsYSgsVbyBileRxPSK_hAPI" alt="">
+        <p>Akribos XXIV Men's Chronograph Date <br> Brown Leather Strap Watch</p></div>
+
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpkCzk0rlnIfuVYMaq_XpkPtRiZJr7T7Yqzkm_DRP8Z25oZcQ7" alt="">
+        <p>Bulova Men's 98B302 Marine Star Two-tone <br> Chrono Black Bracelet Watch</p></div>
+    </div>
+
+    <div class="phot3">
+        <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2zOPsHxeIFkuto8BO-uGJHSumTcWM8E4VRaPIQjnxqhnRo9dW" alt="">
+        <p>Men's Charles Hubert Stainless Steel Blue <br> Dial Diver Watch by Versil - White</p></div>
+
+        <div><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRGP6a_1OQZp5So5imtMf5RLifDt7Y_bVhMbwATDvE3xMs75is_" alt="">
+        <p>Rado Men's 'Centrix' Two-Tone Stainless <br> Steel Watch</p></div>
+
+        <div><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4C8VFyDgdfqHTPaLob_CCg1lLwSAVb348hMhnOY5C8TCFhZO0" alt="">
+        <p>Invicta Men's Speedway Stainless Steel <br> Quartz Watch</p></div>
+
+        <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2vxWKLHEZ4RSsfKbmARw_I5YUHR_SQVY2vwQZpNEuUeRR34Gv" alt="">
+        <p>Seiko Men's SSB261 Chronograph Stainless <br> Steel Watch</p></div>
+    </div>
+    <p><h1 id="Braclets">Men's Braclets</h1></p>
+    <div>
+        <div class="phot3">
+        <div class="brace"><img src="https://ak1.ostkcdn.com/images/products/10670252/T17734931.jpg?imwidth=320&impolicy=custom?imwidth=120&impolicy=medium" alt="">
+        <p>Men's Platinum-Plated 9mm Curb-Link <br> Bracelet (8.5" Long)</p></div>
+
+        <div class="brace"><img src="https://ak1.ostkcdn.com/images/products/7377954/T14837857.jpg?imwidth=320&impolicy=custom?imwidth=120&impolicy=medium" alt="">
+        <p>Men's Yellow Gold-Plated Curb-Link Bracelet <br> (9mm), Genuine Diamond Accent 8.5"</p></div>
+
+        <div class="brace"><img src="https://ak1.ostkcdn.com/images/products/10430830/T17528800.jpg?imwidth=320&impolicy=custom?imwidth=120&impolicy=medium" alt="">
+        <p>Steeltime Men's Stainless Steel Bracelet</p></div>
+
+        <div class="brace"><img src="https://ak1.ostkcdn.com/images/products/12372310/T19197351.jpg?imwidth=320&impolicy=custom?imwidth=120&impolicy=medium" alt="">
+        <p>Lava, Hematite and Natural Stone Beaded <br> Stretch Bracelet Set</p></div>
+
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQms8wpwbXxW97tUlCi9rTq4jUxEsPJKzvuPxR26zJKsZE_C2uP" alt="">
+        <p>Men's Stainless Steel and Rubber <br> ID Bracelet</p></div>
+    </div>
+    </div>
+
+    <div class="phot4">
+        <div class="laeg-phot"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGlIY09lhW5xLQApJDV3xsjn6IcGPtZFUsOaKE1hJMBFVhjFs" alt="">
+        <p>Men's Black Leatherette and Stainless Steel <br> Braided Bracelet</p></div>
+
+        <div class="laeg-phot"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTlyXvcvp2CzUKrWYpQBtgxP5-HktSdJQZ-D8MTxhNwTGWForuZ" alt="">
+        <p>Men's Platinum-Plated 9mm Curb-Link <br> Bracelet (8.5" Long)</p></div>
+
+        <div class="laeg-phot"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQBTYNnIcQjhetRwh-sLfqs1jCeG3AZula-5vPBORmnH_hcORE4" alt="">
+        <p>Men's Braided Leather and Stainless Steel Bracelet</p></div>
+    </div>
+
+    <p id="Glass" class="ptag">Glass section/Ryaban and sunshade,</p>
+
+    <div>
+        <div class="glases">
+        <div class="Glas"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjb8iR0x_xvZYWGadmoRWhBH3GuxeNFiFrmQ&usqp=CAU" alt="">
+        <p>quality designer Rayban, sun-shade, available in Comfort-Place-slide ti our DM on instagram <a href="https://instagram.com/comforts_place?utm_medium=copy_link">instagram</a></p></div>
+
+        <div class="Glas"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbGsd3gNxx9Pfn-YG3_6nC1Os5Rwv-oQzk5g&usqp=CAU" alt="">
+        <p>Original wafarer clasic sunglas Rayban in :Comfort-Place <a href="https://instagram.com/comforts_place?utm_medium=copy_link">instagram</a></p></div>
+
+        <div class="Glas"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa4HVGiPsEHKy6f-9o5eR_TraVv9Gk0bIilA&usqp=CAU" alt="">
+        <p><a href="https://instagram.com/comforts_place?utm_medium=copy_link">instagram</a></p></div>
+        <div class="Glas"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUIw4n-_mYO-IOU2whFKm0OW8Q9CfJEAF6p_Wpx7OTd-o5agMI" alt="">
+        <p><a href="https://instagram.com/comforts_place?utm_medium=copy_link">instagram</a></p></div>
+    </div>
+
+</div>
+<div class="glases">
+    <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgJ0DZ4RYwlCXzbJ4u0H4ddo9h3QvpYGaW4re5w7qFqt9PtVzG" alt="">
+        <p><a href="https://instagram.com/comforts_place?utm_medium=copy_link">instagram</a></p></div>
+        <div><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ0szEP4-SCH8QapSl1cg2ULJ9vmFiCewhREKmlSO0VEjKUD-fF" alt="">
+            <p><a href="https://instagram.com/comforts_place?utm_medium=copy_link">instagram</a></p></div>
+            <div><a href="https://instagram.com/comforts_place?utm_medium=copy_link">instagram</a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9r92xo9JWK7SCZvp1DSO-PSa0wvQR5QNoST34OEgyHWAynZW" alt="">
+                <p></p></div>
+</div>
+    <div>
+        <div><img src="" alt="">
+            <p></p></div>
+            <div><img src="" alt="">
+                <p></p></div>
+                <div><img src="" alt="">
+                    <p></p></div>
+    <div>
+        <div><img src="" alt="">
+            <p></p></div>
+            <div><img src="" alt="">
+                <p></p></div>
+                <div><img src="" alt="">
+                    <p></p></div>
+    </div>
+        
+    </div>
+
+<p>We proudly offer international shipping to over 180 countries and several US Territories. Click here to see a list of supported countries by region. Please note, the estimated delivery timeframe displayed at checkout combines the time to process your order, transit time to our International export facility plus the processing time to ship it outside of the United States.
+
+    Additional fees may be required by the carrier for deliveries to remote shipping locations.
+    
+    </p>
+
+    <param name="param" value="pa valuu">
+    <object data="" type=""></object>
+
+
+
+    <!-- JAVA SCRIPT -->
+    <script>
+        prompt("welcome to 'comfort place' reply Yes if you like the content ")
+
+
+        function addToCart(product, dollar, price){
+        alert(product + " is "+ dollar + price)
+    }
+
+    function like(itemId) {
+        const elem = document.getElementById(itemId);
+        console.log(elem.classList)
+        if(elem.classList.contains("colorBlue",+"coloo",+ "coolo" )){
+            elem.classList.remove("colorBlue",+"coloo",+ "coolo");
+        } else {
+            elem.classList.add("colorBlue",+"coloo",+ "coolo");
+        }
+    }
+
+    // function like(itermId) {
+    //     const elemm = document.getElementById(itermId);
+    //     console.log( elem.classList)
+    //     if( elemm.classList.contains("colorred",+"colo" +"hart")){
+    //         elemm.classList.remove("colorred",+"colo" +"hart");
+    //     }else{
+    //         elemm.classList.add("colorred",+"colo" +"hart");
+    //     }
+    // }
+
+
+
+
+
+
+
+
+    function show(){
+         console,log("Onahi");
+    }
+    invoke
+    show();
+
+        
+        // function addndcart(){
+        //     alert("buy-Chopard?")
+        // }
+
+        // function adddToCart(){
+        //     alert("buy-Oris?")
+        // }
+
+       (function(){
+    var fasIcon = document.getElementById("fas")
+    var cart = document.getElementById("icon")
+    cart.addEventListener("click", function(){
+
+    })
+})
+
+(function (){
+    var cartBtn = document.querySelectorAll(".span");
+
+    cartBtn.forEach(function(btn) {
+        btn.addEventListener("click", function (event){
+            console.log(event);
+        })
+    })
+}
+    )
+
+    var Tee = document.querySelectorAll("span")
+    console.log("Tee", Tee)
+
+    </script>
+    
+</body>
+</html>
